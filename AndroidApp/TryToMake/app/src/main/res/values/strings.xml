@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TryToMake</string>
+    <!--<string name="main">Main Activity</string>
+    <string name="move">MOVE</string>
+    <string name="sub">Sub Activity</string>
+    <string name="return_sub">RETURN</string>
+    <string name="button">Browser</string>-->
+</resources>

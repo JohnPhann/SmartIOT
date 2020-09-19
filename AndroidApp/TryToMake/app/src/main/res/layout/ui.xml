@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eb4634"
+    android:gravity="bottom|left"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_gravity="center|left"
+        app:srcCompat="@drawable/pi3" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="gBPL2020 - GROUP 3"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:textColor="#f5f7f6"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:background="@drawable/custom_button"
+        android:text="Open Cloud" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:textSize="30sp"
+        android:background="@drawable/custom_button"
+        android:textAllCaps="false"
+        android:textColor="#f5f7f6"
+        android:text="Live Stream" />
+
+
+
+</LinearLayout>
